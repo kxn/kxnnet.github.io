@@ -3,11 +3,11 @@ title: San Francisco
 author: kxn
 type: post
 date: -001-11-30T00:00:00+00:00
-url: /index.php/archives/71
+url: /71.html
 categories:
   - Uncategorized
-
 ---
+
 <div>
   1: 海边好漂亮
 </div>

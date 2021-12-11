@@ -3,13 +3,13 @@ title: 实在太 Orz 百度了，您是否要创建 robots.txt 吧
 author: kxn
 type: post
 date: -001-11-30T00:00:00+00:00
-url: /index.php/archives/55
+url: /55.html
 categories:
   - Tech Notes
-
 ---
+
 <div>
-  Original URL:<a href="http://blog.kangkang.org/wordpress/index.php/archives/165" title="实在太 Orz 百度了，您是否要创建 robots.txt 吧"> http://blog.kangkang.org/wordpress/index.php/archives/165 </a>
+  Original URL:<a href="http://blog.kangkang.org/wordpress/165.html" title="实在太 Orz 百度了，您是否要创建 robots.txt 吧"> http://blog.kangkang.org/wordpress/165.html </a>
 </div>
 
 <div>

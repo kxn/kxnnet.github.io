@@ -3,12 +3,12 @@ title: Wasting time…
 author: kxn
 type: post
 date: -001-11-30T00:00:00+00:00
-url: /index.php/archives/56
+url: /56.html
 categories:
   - Uncategorized
-
 ---
-不出意外地,  长假又变成了无所事事. 
+
+不出意外地,  长假又变成了无所事事.
 
 答应给别人破解的软件也没有做.  
 从单位背回来的代码也没有写.  
