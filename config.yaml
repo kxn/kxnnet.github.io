@@ -1,9 +1,11 @@
+baseURL: https://blog.kangkang.net
 url: https://blog.kangkang.net
 title: Null pointer assignment
-name: Null pointer assignment
-description: Life is painful
+name: "Null pointer assignment"
+description: "Life is painful"
 theme: "zen"
 
+hasCJKLanguage: true
 pluralizelisttitles: false
 removePathAccents: true
 paginate: 10
@@ -30,3 +32,6 @@ params:
   poweredby: true
   feedlinks: true
   logo: false
+
+minify:
+  disableJSON: true
