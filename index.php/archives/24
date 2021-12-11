@@ -1,0 +1,108 @@
+<!doctype html><html class=nojs lang=en dir=ltr>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width">
+<title>一个关于大通道公交车的疑问 – Null pointer assignment</title>
+<meta name=description content="一个关于大通道公交车的疑问 很小的时候就有过类似的疑问，那就是那种两截的大通道公交车，像下面这样的 是如何把动力从发动机送到驱动轮的呢？ 难道是用软管来送动力的？否则在车辆转弯时，中间折弯的地方很难处理。能想到的传动设备都很脆弱易坏。 小时候的问题后来被解决了，以前的公交车发动机是前置的，但它的驱动轮不是后轮，而是中轮。这样传动部分不需要 …">
+<meta name=created content="0001-01-01T00:00:00+0000">
+<meta name=modified content="0001-01-01T00:00:00+0000">
+<meta name=author content="kxn">
+<meta property="og:site_name" content="Null pointer assignment">
+<meta property="og:title" content="一个关于大通道公交车的疑问">
+<meta property="og:url" content="https://blog.kangkang.net/index.php/archives/24">
+<meta property="og:type" content="article">
+<meta name=generator content="Hugo 0.90.1">
+<meta name=msapplication-TileColor content="#ffffff">
+<meta name=theme-color content="#ffffff">
+<link rel=canonical href=https://blog.kangkang.net/index.php/archives/24>
+<link rel=apple-touch-icon href=/apple-touch-icon.png>
+<link rel=stylesheet href=/css/mobile.2ab74aa64785dcab8114959e76ca140cf76207cd85989bc6d4fc3b12f734a09e.css media=screen>
+<link rel=stylesheet href=/css/styles.220f12cbeefa3ca61dd63c4390295bf3974c4ba9557837d5e408db1b40a477ee.css>
+<link rel=stylesheet href=/css/print.27fc184f8670f41a2690985390779e7b20335a8fadff8fa015cf9417ffe50c36.css media=print>
+<script type=application/ld+json>
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "headline": "一个关于大通道公交车的疑问",
+    "datePublished": "0001-01-01T00:00:00Z",
+    "dateModified": "0001-01-01T00:00:00Z",
+    "url" : "https://blog.kangkang.net/index.php/archives/24",
+    "description": "一个关于大通道公交车的疑问 很小的时候就有过类似的疑问，那就是那种两截的大通道公交车，像下面这样的 是如何把动力从发动机送到驱动轮的呢？ 难道是用软管来送动力的？否则在车辆转弯时，中间折弯的地方很难处理。能想到的传动设备都很脆弱易坏。 小时候的问题后来被解决了，以前的公交车发动机是前置的，但它的驱动轮不是后轮，而是中轮。这样传动部分不需要 …",
+    "author": {
+      "@type": "Person",
+      "name": "kxn"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://blog.kangkang.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Null pointer assignment",
+      "url": "https://blog.kangkang.net"
+    }
+  }
+</script>
+<script src=/js/script-early.min.3b0e641814c87f6a1d6ffa5e7d597f29faa8ce11482541e8801dc34013817c91.js></script>
+<script defer src=/js/lib/umbrella.min.6e17830ccdded0a13b96d6993865b58202bc2ee750e5892a51858ab048b2bebb.js></script>
+<script defer src=/js/mobile.min.abb9438113cb72181ecda30b9375cc0771c7ce2e7354414a7c1296b45cf47135.js></script>
+<script defer src=/js/script.min.c2752732454d16255cfd30375b9a3e48a37b7b809c917b33920889c859ba1300.js></script>
+</head>
+<body class=single-page>
+<div class="page layout__page layout__sidebar-second">
+<header class="header layout__header">
+<h1 class=header__site-name>
+<a href=/ title=Home class=header__site-link rel=home><span>Null pointer assignment</span></a>
+</h1>
+<div class="region header__region">
+</div>
+</header>
+<nav class="main-menu layout__navigation">
+<h2 class=visually-hidden>Main menu</h2>
+<ul class=navbar>
+<li><a href=/>Home</a></li>
+<li><a href=/about/>About</a></li>
+<li><a href=/posts/ class=active aria-current=page>Posts</a></li>
+</ul>
+</nav>
+<main class="main layout__main">
+<article class="section-posts single-view">
+<header>
+<h1 class=title>一个关于大通道公交车的疑问</h1>
+</header>
+<div class=content>
+<p><strong>一个关于大通道公交车的疑问</strong></p>
+<p>很小的时候就有过类似的疑问，那就是那种两截的大通道公交车，像下面这样的</p>
+<p>是如何把动力从发动机送到驱动轮的呢？ 难道是用软管来送动力的？否则在车辆转弯时，中间折弯的地方很难处理。能想到的传动设备都很脆弱易坏。</p>
+<p>小时候的问题后来被解决了，以前的公交车发动机是前置的，但它的驱动轮不是后轮，而是中轮。这样传动部分不需要经过中间铰接的地方。</p>
+<p>然而像图中这样新的公交车，从外面可以很清楚地看出它的发动机是后置的，在后面一节的最后面。这样问题就来了，如果还像以前一样，中轮是驱动轮的话，传动部分势必要经过中间的铰接部分。但是如果后轮是驱动轮，这个车前进时候的受力就很不稳了，且不说在转弯时候中间绞盘要吃多大的力，如果车辆折角大一点那就没法前进了。</p>
+<p>有人知道现在这种后置式大通道公交车是如何解决传动问题的吗？</p>
+<p>多谢。</p>
+<aside class="related layout__related">
+</aside>
+</div>
+</article>
+</main>
+<footer class="footer layout__footer">
+<p><span>© Null pointer assignment</span></p>
+<p>Powered by <a href=https://gohugo.io/>Hugo</a> and the <a href=https://github.com/frjo/hugo-theme-zen>Zen theme</a>.</p>
+</footer>
+</div>
+<div class=mobile-nav dir=ltr>
+<div class=mobile-nav__cover></div>
+<a href=#navigation class=mobile-nav__toggle aria-haspopup=true role=button>Menu</a>
+<div class=mobile-nav__sheet>
+<div class=mobile-nav__region>
+</div>
+<nav class=mobile-nav__main-menu>
+<h2 class=visually-hidden>Main menu</h2>
+<ul class=mobile-nav__navbar>
+<li><a href=/>Home</a></li>
+<li><a href=/about/>About</a></li>
+<li><a href=/posts/ class=active aria-current=page>Posts</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</body>
+</html>

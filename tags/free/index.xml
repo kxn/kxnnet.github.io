@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>free on Null pointer assignment</title><link>https://blog.kangkang.net/tags/free/</link><description>Recent content in free on Null pointer assignment</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 02 Nov 2008 07:01:44 +0000</lastBuildDate><atom:link href="https://blog.kangkang.net/tags/free/index.xml" rel="self" type="application/rss+xml"/><item><title>办理了兴业搬钱卡</title><link>https://blog.kangkang.net/index.php/archives/155</link><pubDate>Sun, 02 Nov 2008 07:01:44 +0000</pubDate><guid>https://blog.kangkang.net/index.php/archives/155</guid><description>&lt;p>呃，兴业银行是不会起这么脑残的名字的，这卡名字其实叫做自然人生理财卡，也就是兴业最普通的借记卡。说它是搬钱卡，主要是因为它目前有以下几个好处。&lt;/p>
+&lt;p>1: 同城跨行汇款免费，很适合用来还网点少的信用卡。(注意实时转账是要钱的，不要搞混了)&lt;/p>
+&lt;p>2: 同城 ATM 取现完全免费不限次数，这对上地软件园这个只有一台招行取款机，而且这台取款机经常被取空的地方来说，还是挺有用的。异地每月有 3 次免费机会（不确定，但我一般也不需要此功能就是了）&lt;/p>
+&lt;p>3: 目前各种费用基本还是免的，比如短信账户提醒，账户管理费之类。&lt;/p>
+&lt;p>4: 可以网上申请个兴业 e 卡，从这个账户可以有限地实现全国范围内免费跨行转账（需要对方城市有兴业银行的分舵才能免费），不过这个功能对我来说实在是没啥用处。&lt;/p>
+&lt;p>以前一直是随身带着招行一卡通金当取款卡的，这个卡似乎是当年作为工资卡时候签成长期协议了，因此它现在虽然已经不是工资卡，但还是享受每月两次跨行 ATM 取现的优惠。不过它已经快到期了，到期以后换卡不知道还有没有优惠，另外如果不小心多取几次，也比较郁闷。现在有了搬钱卡，还是让搬钱卡来承担这一重任吧。&lt;/p>
+&lt;p>刚登录上了兴业网银，看起来还算好用，从功能上看不比招行那个差太多。不过需要注意的一点是，Vista 下面 IE 如果没有装 Java，在登录兴业网银时候一声不吭的就崩溃了，由于 Vista 权限分离的原因，连调试都很难调试。最后是搜了半天，终于发现要装 Java，而且要把兴业网址和证书颁发网站(cfca.com.cn)都设成信任站点才成。&lt;/p></description></item></channel></rss>

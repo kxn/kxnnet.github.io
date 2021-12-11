@@ -1,0 +1,113 @@
+<!doctype html><html class=nojs lang=en dir=ltr>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width">
+<title>多余的银行卡销卡成功 || 中行推广网银 – Null pointer assignment</title>
+<meta name=description content="手中有三张很久没有用的银行卡，两张中行的，一张北京银行的，里面钱加起来不超过 100，然后两张中行的还不断的被收取年费，最近清理的时候决定把他们都销户掉。 销户倒是很顺利，不像移动销个手机号恨不得全营业厅人都过来劝你，可能银行这种事情比较司空见惯吧。很轻松的消掉了一个中行的和一个北京银行的。但是有一张很老的中行卡，是银行业务集中之前开的 …">
+<meta name=created content="2008-05-31T16:03:49+0000">
+<meta name=modified content="2008-05-31T16:03:49+0000">
+<meta name=author content="kxn">
+<meta property="og:site_name" content="Null pointer assignment">
+<meta property="og:title" content="多余的银行卡销卡成功 || 中行推广网银">
+<meta property="og:url" content="https://blog.kangkang.net/index.php/archives/135">
+<meta property="og:type" content="article">
+<meta name=generator content="Hugo 0.90.1">
+<meta name=msapplication-TileColor content="#ffffff">
+<meta name=theme-color content="#ffffff">
+<link rel=canonical href=https://blog.kangkang.net/index.php/archives/135>
+<link rel=apple-touch-icon href=/apple-touch-icon.png>
+<link rel=stylesheet href=/css/mobile.2ab74aa64785dcab8114959e76ca140cf76207cd85989bc6d4fc3b12f734a09e.css media=screen>
+<link rel=stylesheet href=/css/styles.220f12cbeefa3ca61dd63c4390295bf3974c4ba9557837d5e408db1b40a477ee.css>
+<link rel=stylesheet href=/css/print.27fc184f8670f41a2690985390779e7b20335a8fadff8fa015cf9417ffe50c36.css media=print>
+<script type=application/ld+json>
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "headline": "多余的银行卡销卡成功 || 中行推广网银",
+    "datePublished": "2008-05-31T16:03:49Z",
+    "dateModified": "2008-05-31T16:03:49Z",
+    "url" : "https://blog.kangkang.net/index.php/archives/135",
+    "description": "手中有三张很久没有用的银行卡，两张中行的，一张北京银行的，里面钱加起来不超过 100，然后两张中行的还不断的被收取年费，最近清理的时候决定把他们都销户掉。 销户倒是很顺利，不像移动销个手机号恨不得全营业厅人都过来劝你，可能银行这种事情比较司空见惯吧。很轻松的消掉了一个中行的和一个北京银行的。但是有一张很老的中行卡，是银行业务集中之前开的 …",
+    "keywords": ["中行","网银","销户"],
+    "author": {
+      "@type": "Person",
+      "name": "kxn"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://blog.kangkang.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Null pointer assignment",
+      "url": "https://blog.kangkang.net"
+    }
+  }
+</script>
+<script src=/js/script-early.min.3b0e641814c87f6a1d6ffa5e7d597f29faa8ce11482541e8801dc34013817c91.js></script>
+<script defer src=/js/lib/umbrella.min.6e17830ccdded0a13b96d6993865b58202bc2ee750e5892a51858ab048b2bebb.js></script>
+<script defer src=/js/mobile.min.abb9438113cb72181ecda30b9375cc0771c7ce2e7354414a7c1296b45cf47135.js></script>
+<script defer src=/js/script.min.c2752732454d16255cfd30375b9a3e48a37b7b809c917b33920889c859ba1300.js></script>
+</head>
+<body class=single-page>
+<div class="page layout__page layout__sidebar-second">
+<header class="header layout__header">
+<h1 class=header__site-name>
+<a href=/ title=Home class=header__site-link rel=home><span>Null pointer assignment</span></a>
+</h1>
+<div class="region header__region">
+</div>
+</header>
+<nav class="main-menu layout__navigation">
+<h2 class=visually-hidden>Main menu</h2>
+<ul class=navbar>
+<li><a href=/>Home</a></li>
+<li><a href=/about/>About</a></li>
+<li><a href=/posts/ class=active aria-current=page>Posts</a></li>
+</ul>
+</nav>
+<main class="main layout__main">
+<article class="section-posts single-view">
+<header>
+<h1 class=title>多余的银行卡销卡成功 || 中行推广网银</h1>
+<div class=tags>
+Tags:
+<ul>
+<li><a href=/tags/%E4%B8%AD%E8%A1%8C>中行</a></li>
+<li><a href=/tags/%E7%BD%91%E9%93%B6>网银</a></li>
+<li><a href=/tags/%E9%94%80%E6%88%B7>销户</a></li>
+</ul>
+</div>
+</header>
+<div class=content>
+<p>手中有三张很久没有用的银行卡，两张中行的，一张北京银行的，里面钱加起来不超过 100，然后两张中行的还不断的被收取年费，最近清理的时候决定把他们都销户掉。</p>
+<p>销户倒是很顺利，不像移动销个手机号恨不得全营业厅人都过来劝你，可能银行这种事情比较司空见惯吧。很轻松的消掉了一个中行的和一个北京银行的。但是有一张很老的中行卡，是银行业务集中之前开的户，然后还忘记密码了，于是只能坐车一个多小时到开户行去用身份证销，好在也很顺利，轻松销掉了。</p>
+<p>另外似乎最近中行网银推广的很厉害，我在等候销卡的时候，看前面几个打工妹模样的都被忽悠开通了中行网银，基本是一听说免费还送小礼物，就都办了，有一个多点心眼，问一句这个是不是不安全啊，然后柜员就说，这个很安全的, blah blah… 我也不好意思跳出来拆台，我明明看到，地铁里面中行网银的广告是 “首年免费，开户有礼”。</p>
+<aside class="related layout__related">
+</aside>
+</div>
+</article>
+</main>
+<footer class="footer layout__footer">
+<p><span>© Null pointer assignment</span></p>
+<p>Powered by <a href=https://gohugo.io/>Hugo</a> and the <a href=https://github.com/frjo/hugo-theme-zen>Zen theme</a>.</p>
+</footer>
+</div>
+<div class=mobile-nav dir=ltr>
+<div class=mobile-nav__cover></div>
+<a href=#navigation class=mobile-nav__toggle aria-haspopup=true role=button>Menu</a>
+<div class=mobile-nav__sheet>
+<div class=mobile-nav__region>
+</div>
+<nav class=mobile-nav__main-menu>
+<h2 class=visually-hidden>Main menu</h2>
+<ul class=mobile-nav__navbar>
+<li><a href=/>Home</a></li>
+<li><a href=/about/>About</a></li>
+<li><a href=/posts/ class=active aria-current=page>Posts</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</body>
+</html>

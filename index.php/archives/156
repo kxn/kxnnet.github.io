@@ -1,0 +1,117 @@
+<!doctype html><html class=nojs lang=en dir=ltr>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width">
+<title>招行自动还款不一定能成功？ – Null pointer assignment</title>
+<meta name=description content="今天在水木上面看到，有人说招行的自动还款策略是，如果本月有任何一笔还款入账，不管是不是已经达到最低还款额度，本月就不会进行自动还款。一想起来上个月无聊，从腾讯财付通测试向几张信用卡里面各提过一分钱。当时只是为了好玩，从来没想到还会有这种后果，要是因为这个原因，导致上个月账单没有及时还被搞出循环利息或者干脆影响了信用记录，我就亏大了！ 赶紧 …">
+<meta name=created content="2008-11-03T14:52:51+0000">
+<meta name=modified content="2008-11-03T14:52:51+0000">
+<meta name=author content="kxn">
+<meta property="og:site_name" content="Null pointer assignment">
+<meta property="og:title" content="招行自动还款不一定能成功？">
+<meta property="og:url" content="https://blog.kangkang.net/index.php/archives/156">
+<meta property="og:type" content="article">
+<meta name=generator content="Hugo 0.90.1">
+<meta name=msapplication-TileColor content="#ffffff">
+<meta name=theme-color content="#ffffff">
+<link rel=canonical href=https://blog.kangkang.net/index.php/archives/156>
+<link rel=apple-touch-icon href=/apple-touch-icon.png>
+<link rel=stylesheet href=/css/mobile.2ab74aa64785dcab8114959e76ca140cf76207cd85989bc6d4fc3b12f734a09e.css media=screen>
+<link rel=stylesheet href=/css/styles.220f12cbeefa3ca61dd63c4390295bf3974c4ba9557837d5e408db1b40a477ee.css>
+<link rel=stylesheet href=/css/print.27fc184f8670f41a2690985390779e7b20335a8fadff8fa015cf9417ffe50c36.css media=print>
+<script type=application/ld+json>
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "headline": "招行自动还款不一定能成功？",
+    "datePublished": "2008-11-03T14:52:51Z",
+    "dateModified": "2008-11-03T14:52:51Z",
+    "url" : "https://blog.kangkang.net/index.php/archives/156",
+    "description": "今天在水木上面看到，有人说招行的自动还款策略是，如果本月有任何一笔还款入账，不管是不是已经达到最低还款额度，本月就不会进行自动还款。一想起来上个月无聊，从腾讯财付通测试向几张信用卡里面各提过一分钱。当时只是为了好玩，从来没想到还会有这种后果，要是因为这个原因，导致上个月账单没有及时还被搞出循环利息或者干脆影响了信用记录，我就亏大了！ 赶紧 …",
+    "keywords": ["cmb","creditcard"],
+    "author": {
+      "@type": "Person",
+      "name": "kxn"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://blog.kangkang.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Null pointer assignment",
+      "url": "https://blog.kangkang.net"
+    }
+  }
+</script>
+<script src=/js/script-early.min.3b0e641814c87f6a1d6ffa5e7d597f29faa8ce11482541e8801dc34013817c91.js></script>
+<script defer src=/js/lib/umbrella.min.6e17830ccdded0a13b96d6993865b58202bc2ee750e5892a51858ab048b2bebb.js></script>
+<script defer src=/js/mobile.min.abb9438113cb72181ecda30b9375cc0771c7ce2e7354414a7c1296b45cf47135.js></script>
+<script defer src=/js/script.min.c2752732454d16255cfd30375b9a3e48a37b7b809c917b33920889c859ba1300.js></script>
+</head>
+<body class=single-page>
+<div class="page layout__page layout__sidebar-second">
+<header class="header layout__header">
+<h1 class=header__site-name>
+<a href=/ title=Home class=header__site-link rel=home><span>Null pointer assignment</span></a>
+</h1>
+<div class="region header__region">
+</div>
+</header>
+<nav class="main-menu layout__navigation">
+<h2 class=visually-hidden>Main menu</h2>
+<ul class=navbar>
+<li><a href=/>Home</a></li>
+<li><a href=/about/>About</a></li>
+<li><a href=/posts/ class=active aria-current=page>Posts</a></li>
+</ul>
+</nav>
+<main class="main layout__main">
+<article class="section-posts single-view">
+<header>
+<h1 class=title>招行自动还款不一定能成功？</h1>
+<div class=tags>
+Tags:
+<ul>
+<li><a href=/tags/cmb>cmb</a></li>
+<li><a href=/tags/creditcard>creditcard</a></li>
+</ul>
+</div>
+</header>
+<div class=content>
+<p>今天在水木上面看到，有人说招行的自动还款策略是，如果本月有任何一笔还款入账，不管是不是已经达到最低还款额度，本月就不会进行自动还款。一想起来上个月无聊，从腾讯财付通测试向几张信用卡里面各提过一分钱。当时只是为了好玩，从来没想到还会有这种后果，要是因为这个原因，导致上个月账单没有及时还被搞出循环利息或者干脆影响了信用记录，我就亏大了！</p>
+<p>赶紧登录进去信用卡网站，查了一下还款记录。谢天谢地，在 13 日还款记录之后紧接着就是14日的财付通到账记录，如果我无聊早提了一天，说不定现在已经产生不少利息了。</p>
+<p>本月的账单不知道招行会不会自动还，不过我可不打算以身试法了，还是早还早安心。另外也劝各位，以后没事别往自己信用卡里面提现玩，除非你就是为了还款。</p>
+<p>最后插播一个短消息，今天中午出去散步的时候看到一个华夏银行的取款机，顺便在这个取款机上面取了点钱，结果打出来的回单<strong>居然是可以刮奖的</strong>，可惜没有刮中，看回单背面的说明写，奖分三等，50000 积分，10000 积分 以及 5000 积分，另外如果是跨行取款，那么不管中没中奖，这张回单本身都可以当做 100 积分用。积分可以在华夏的网点兑换东西，兑换列表在华夏网点有。不过回来以后 google 了半天，都没发现这个兑换列表的网上版本，不知道是不是华夏对网上宣传一点都不重视。</p>
+<aside class="related layout__related">
+<h2>See also</h2>
+<ul>
+<li><a href=/index.php/archives/154>又申请了两张信用卡</a></li>
+</ul>
+</aside>
+</div>
+</article>
+</main>
+<footer class="footer layout__footer">
+<p><span>© Null pointer assignment</span></p>
+<p>Powered by <a href=https://gohugo.io/>Hugo</a> and the <a href=https://github.com/frjo/hugo-theme-zen>Zen theme</a>.</p>
+</footer>
+</div>
+<div class=mobile-nav dir=ltr>
+<div class=mobile-nav__cover></div>
+<a href=#navigation class=mobile-nav__toggle aria-haspopup=true role=button>Menu</a>
+<div class=mobile-nav__sheet>
+<div class=mobile-nav__region>
+</div>
+<nav class=mobile-nav__main-menu>
+<h2 class=visually-hidden>Main menu</h2>
+<ul class=mobile-nav__navbar>
+<li><a href=/>Home</a></li>
+<li><a href=/about/>About</a></li>
+<li><a href=/posts/ class=active aria-current=page>Posts</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</body>
+</html>

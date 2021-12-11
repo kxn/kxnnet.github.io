@@ -1,0 +1,171 @@
+<!doctype html><html class=nojs lang=en dir=ltr>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width">
+<title>Good Bye, 2007! – Null pointer assignment</title>
+<meta name=description content="Good Bye, 2007! 再见 2007 虽然在 2007，股市楼市泡沫继续疯狂； 虽然在 2007，世界油价继续上涨； 虽然在 2007，黑煤窑继续兴旺； 虽然在 2007，台湾地震，美国山火，济南大水； 虽然在 2007，感情工作一事无成； 但是在 2007，新劳动法获得通过； 但是在 2007，嫦娥卫星发射成功； …">
+<meta name=created content="0001-01-01T00:00:00+0000">
+<meta name=modified content="0001-01-01T00:00:00+0000">
+<meta name=author content="kxn">
+<meta property="og:site_name" content="Null pointer assignment">
+<meta property="og:title" content="Good Bye, 2007!">
+<meta property="og:url" content="https://blog.kangkang.net/index.php/archives/35">
+<meta property="og:type" content="article">
+<meta name=generator content="Hugo 0.90.1">
+<meta name=msapplication-TileColor content="#ffffff">
+<meta name=theme-color content="#ffffff">
+<link rel=canonical href=https://blog.kangkang.net/index.php/archives/35>
+<link rel=apple-touch-icon href=/apple-touch-icon.png>
+<link rel=stylesheet href=/css/mobile.2ab74aa64785dcab8114959e76ca140cf76207cd85989bc6d4fc3b12f734a09e.css media=screen>
+<link rel=stylesheet href=/css/styles.220f12cbeefa3ca61dd63c4390295bf3974c4ba9557837d5e408db1b40a477ee.css>
+<link rel=stylesheet href=/css/print.27fc184f8670f41a2690985390779e7b20335a8fadff8fa015cf9417ffe50c36.css media=print>
+<script type=application/ld+json>
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "headline": "Good Bye, 2007!",
+    "datePublished": "0001-01-01T00:00:00Z",
+    "dateModified": "0001-01-01T00:00:00Z",
+    "url" : "https://blog.kangkang.net/index.php/archives/35",
+    "description": "Good Bye, 2007! 再见 2007 虽然在 2007，股市楼市泡沫继续疯狂； 虽然在 2007，世界油价继续上涨； 虽然在 2007，黑煤窑继续兴旺； 虽然在 2007，台湾地震，美国山火，济南大水； 虽然在 2007，感情工作一事无成； 但是在 2007，新劳动法获得通过； 但是在 2007，嫦娥卫星发射成功； …",
+    "author": {
+      "@type": "Person",
+      "name": "kxn"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://blog.kangkang.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Null pointer assignment",
+      "url": "https://blog.kangkang.net"
+    }
+  }
+</script>
+<script src=/js/script-early.min.3b0e641814c87f6a1d6ffa5e7d597f29faa8ce11482541e8801dc34013817c91.js></script>
+<script defer src=/js/lib/umbrella.min.6e17830ccdded0a13b96d6993865b58202bc2ee750e5892a51858ab048b2bebb.js></script>
+<script defer src=/js/mobile.min.abb9438113cb72181ecda30b9375cc0771c7ce2e7354414a7c1296b45cf47135.js></script>
+<script defer src=/js/script.min.c2752732454d16255cfd30375b9a3e48a37b7b809c917b33920889c859ba1300.js></script>
+</head>
+<body class=single-page>
+<div class="page layout__page layout__sidebar-second">
+<header class="header layout__header">
+<h1 class=header__site-name>
+<a href=/ title=Home class=header__site-link rel=home><span>Null pointer assignment</span></a>
+</h1>
+<div class="region header__region">
+</div>
+</header>
+<nav class="main-menu layout__navigation">
+<h2 class=visually-hidden>Main menu</h2>
+<ul class=navbar>
+<li><a href=/>Home</a></li>
+<li><a href=/about/>About</a></li>
+<li><a href=/posts/ class=active aria-current=page>Posts</a></li>
+</ul>
+</nav>
+<main class="main layout__main">
+<article class="section-posts single-view">
+<header>
+<h1 class=title>Good Bye, 2007!</h1>
+</header>
+<div class=content>
+<p><strong>Good Bye, 2007!</strong></p>
+<p>再见 2007</p>
+<p>虽然在 2007，股市楼市泡沫继续疯狂；<br>
+虽然在 2007，世界油价继续上涨；<br>
+虽然在 2007，黑煤窑继续兴旺；<br>
+虽然在 2007，台湾地震，美国山火，济南大水；<br>
+虽然在 2007，感情工作一事无成；</p>
+<p>但是在 2007，新劳动法获得通过；<br>
+但是在 2007，嫦娥卫星发射成功；<br>
+但是在 2007，电池技术获得突破；<br>
+但是在 2007，网民舆论成功击败 PX 项目，假华南虎；湘西人大代表；<br>
+但是在 2007，考下了驾照。</p>
+<p>虽然在过去的一年里，整个地球，整个国家，有着太多的不如意，<br>
+但是在过去的一年里，整个世界，整个社会，依然在努力的前行。</p>
+<p>相信未来，明天才会更好。祝在 2007 如意或不如意的各位，新年快乐！ 2008 ，我们来了！</p>
+<p>最后，用一首老歌来结束这篇 blog 吧。</p>
+<p><a href=http://bbs.xcetv.com/uploadfile/2006-8/200682814352760289.mp3>http://bbs.xcetv.com/uploadfile/2006-8/200682814352760289.mp3</a></p>
+<p>轻轻敲醒沉睡的心灵<br>
+慢慢张开你的眼睛<br>
+看看忙碌的世界<br>
+是否依然孤独的转个不停<br>
+春风不解风情<br>
+吹动少年的心<br>
+让昨日脸上的泪痕<br>
+随记忆风干了<br>
+抬头寻找天空的翅膀<br>
+候鸟出现它的影迹<br>
+带来远处的饥荒<br>
+无情的战火依然存在的消息<br>
+玉山白雪飘零<br>
+燃烧少年的心<br>
+使真情溶化成音符<br>
+倾诉遥远的祝福<br>
+唱出你的热情　<br>
+伸出你的双手<br>
+让我拥抱着你的梦<br>
+让我拥有你真心的面孔<br>
+让我们的笑容<br>
+充满着青春的骄傲<br>
+为明天献出虔诚的祈祷<br>
+谁能不顾自己的家园<br>
+抛开记忆中的童年<br>
+谁能忍心看那昨日的忧愁<br>
+带走我们的笑容<br>
+青春不解红尘<br>
+胭脂沾染了灰<br>
+让久违不见的泪水<br>
+滋润了你的面容<br>
+唱出你的热情<br>
+伸出你的双手<br>
+让我拥抱着你的梦　<br>
+让我拥有你真心的面孔<br>
+让我们的笑容　<br>
+充满着青春的骄傲<br>
+为明天献出虔诚的祈祷<br>
+轻轻敲醒沉睡的心灵　<br>
+慢慢张开你的眼睛　<br>
+看看忙碌的世界<br>
+是否依然孤独的转个不停<br>
+日出唤醒清晨<br>
+大地光彩重生<br>
+让和风拂出的音响<br>
+谱成生命的乐章　　　<br>
+唱出你的热情　<br>
+伸出你双手　<br>
+让我拥抱着你的梦<br>
+让我拥有你真心的面孔<br>
+让我们的笑容<br>
+充满着青春的骄傲<br>
+让我们期待明天会更好</p>
+<aside class="related layout__related">
+</aside>
+</div>
+</article>
+</main>
+<footer class="footer layout__footer">
+<p><span>© Null pointer assignment</span></p>
+<p>Powered by <a href=https://gohugo.io/>Hugo</a> and the <a href=https://github.com/frjo/hugo-theme-zen>Zen theme</a>.</p>
+</footer>
+</div>
+<div class=mobile-nav dir=ltr>
+<div class=mobile-nav__cover></div>
+<a href=#navigation class=mobile-nav__toggle aria-haspopup=true role=button>Menu</a>
+<div class=mobile-nav__sheet>
+<div class=mobile-nav__region>
+</div>
+<nav class=mobile-nav__main-menu>
+<h2 class=visually-hidden>Main menu</h2>
+<ul class=mobile-nav__navbar>
+<li><a href=/>Home</a></li>
+<li><a href=/about/>About</a></li>
+<li><a href=/posts/ class=active aria-current=page>Posts</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</body>
+</html>

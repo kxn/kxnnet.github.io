@@ -1,0 +1,109 @@
+<!doctype html><html class=nojs lang=en dir=ltr>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width">
+<title>把信用卡绑定了PayPal – Null pointer assignment</title>
+<meta name=description content="把信用卡绑定了PayPal(原发于 http://kxn.spaces.live.com, 加此标记只是为了防止抓虾之类网站恶意镜像) 看到 月光博客上面有一篇关于信用卡使用的文章 ，觉得里面说的关于不要在国外网站上面直接使用信用卡，而是代之以PayPal还是很有道理的，于是也去注册了一个PayPal账号然后把信用卡绑定上了，以后买域名之 …">
+<meta name=created content="0001-01-01T00:00:00+0000">
+<meta name=modified content="0001-01-01T00:00:00+0000">
+<meta name=author content="kxn">
+<meta property="og:site_name" content="Null pointer assignment">
+<meta property="og:title" content="把信用卡绑定了PayPal">
+<meta property="og:url" content="https://blog.kangkang.net/index.php/archives/6">
+<meta property="og:type" content="article">
+<meta name=generator content="Hugo 0.90.1">
+<meta name=msapplication-TileColor content="#ffffff">
+<meta name=theme-color content="#ffffff">
+<link rel=canonical href=https://blog.kangkang.net/index.php/archives/6>
+<link rel=apple-touch-icon href=/apple-touch-icon.png>
+<link rel=stylesheet href=/css/mobile.2ab74aa64785dcab8114959e76ca140cf76207cd85989bc6d4fc3b12f734a09e.css media=screen>
+<link rel=stylesheet href=/css/styles.220f12cbeefa3ca61dd63c4390295bf3974c4ba9557837d5e408db1b40a477ee.css>
+<link rel=stylesheet href=/css/print.27fc184f8670f41a2690985390779e7b20335a8fadff8fa015cf9417ffe50c36.css media=print>
+<script type=application/ld+json>
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "headline": "把信用卡绑定了PayPal",
+    "datePublished": "0001-01-01T00:00:00Z",
+    "dateModified": "0001-01-01T00:00:00Z",
+    "url" : "https://blog.kangkang.net/index.php/archives/6",
+    "description": "把信用卡绑定了PayPal(原发于 http://kxn.spaces.live.com, 加此标记只是为了防止抓虾之类网站恶意镜像) 看到 月光博客上面有一篇关于信用卡使用的文章 ，觉得里面说的关于不要在国外网站上面直接使用信用卡，而是代之以PayPal还是很有道理的，于是也去注册了一个PayPal账号然后把信用卡绑定上了，以后买域名之 …",
+    "author": {
+      "@type": "Person",
+      "name": "kxn"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://blog.kangkang.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Null pointer assignment",
+      "url": "https://blog.kangkang.net"
+    }
+  }
+</script>
+<script src=/js/script-early.min.3b0e641814c87f6a1d6ffa5e7d597f29faa8ce11482541e8801dc34013817c91.js></script>
+<script defer src=/js/lib/umbrella.min.6e17830ccdded0a13b96d6993865b58202bc2ee750e5892a51858ab048b2bebb.js></script>
+<script defer src=/js/mobile.min.abb9438113cb72181ecda30b9375cc0771c7ce2e7354414a7c1296b45cf47135.js></script>
+<script defer src=/js/script.min.c2752732454d16255cfd30375b9a3e48a37b7b809c917b33920889c859ba1300.js></script>
+</head>
+<body class=single-page>
+<div class="page layout__page layout__sidebar-second">
+<header class="header layout__header">
+<h1 class=header__site-name>
+<a href=/ title=Home class=header__site-link rel=home><span>Null pointer assignment</span></a>
+</h1>
+<div class="region header__region">
+</div>
+</header>
+<nav class="main-menu layout__navigation">
+<h2 class=visually-hidden>Main menu</h2>
+<ul class=navbar>
+<li><a href=/>Home</a></li>
+<li><a href=/about/>About</a></li>
+<li><a href=/posts/ class=active aria-current=page>Posts</a></li>
+</ul>
+</nav>
+<main class="main layout__main">
+<article class="section-posts single-view">
+<header>
+<h1 class=title>把信用卡绑定了PayPal</h1>
+</header>
+<div class=content>
+<p>把信用卡绑定了PayPal</p>
+<p>(原发于 <a href=http://kxn.spaces.live.com>http://kxn.spaces.live.com</a>, 加此标记只是为了防止抓虾之类网站恶意镜像)</p>
+<p>看到 <a href=http://www.williamlong.info/archives/1335.html title=月光博客></a><a href=http://www.williamlong.info/archives/1335.html title=月光博客上面有一篇关于信用卡使用的文章>月光博客上面有一篇关于信用卡使用的文章</a> ，觉得里面说的关于不要在国外网站上面直接使用信用卡，而是代之以PayPal还是很有道理的，于是也去注册了一个PayPal账号然后把信用卡绑定上了，以后买域名之类都用这个好了。</p>
+<p>另外要说的一点就是，月光博客的文章不是完全正确或者完全，主要是下面几点：</p>
+<p>1: 如果仅考虑信用卡账户风险(比如商家用你的信用卡乱下单)，那么在国内网站上面支付的时候，通常情况下只要注意，输入账号密码的地方确定是银行网站就可以。常见银行的网银系统在回单的时候是不会携带信用卡号信息的，商家根本无从得知你用来支付的卡号是什么，以及是信用卡还是借记卡。如果考虑交易风险(比如卖家不发货)，那么除了支付宝和财付通这样有中介保证的付款方式都不要使用，使用招行专业版对交易风险并没有任何帮助。</p>
+<p>2: 设置信用卡额度密码之类限制只对银联线路有效，对国际线路似乎无效，因此要特别注意国外网站交易的安全。由于世界上信用卡系统很多，异构情况比较严重，理论上讲，仅有信用卡号已经足够进行国际扣款交易了，大部分信用卡中介单位会验证信用卡有效期，有些会验证信用卡后面的三位 CVV ，甚至有些会验证账单地址，但是不能保证所有的情况下都会验证。因此即使是信用卡号本身，都要小心爱护，这种情况下 PayPal 就是最佳选择。</p>
+<p>3: 如果是 VISA 信用卡，可以申请个 VBV 服务，基本就是你自己设定一句只有你知道的话，然后你在外国网站上面输入信用卡号的时候，如果看页面上面有你的这句话，就说明这网站是个可信的，不是钓鱼网站。不过这玩意实际用处不大，很多比较大的外国网站并不显示它，比如 GoDaddy，你总不能因为他不显示，就拒绝支付吧。</p>
+<p>4: 我也认为信用卡不必设置交易密码，但决不能认为，不设置交易密码，银行就肯定保你的损失了。实际上信用卡这种磁条卡被复制，或者卡号有效期被复制的情况下，被刷了也就是白刷，一般人很少能意识到发生了什么事情，更不会去挂失。我不设置交易密码只是为了方便，多输入一次密码，就是多了一次密码泄露机会。用卡安全还是要自己多注意。</p>
+<aside class="related layout__related">
+</aside>
+</div>
+</article>
+</main>
+<footer class="footer layout__footer">
+<p><span>© Null pointer assignment</span></p>
+<p>Powered by <a href=https://gohugo.io/>Hugo</a> and the <a href=https://github.com/frjo/hugo-theme-zen>Zen theme</a>.</p>
+</footer>
+</div>
+<div class=mobile-nav dir=ltr>
+<div class=mobile-nav__cover></div>
+<a href=#navigation class=mobile-nav__toggle aria-haspopup=true role=button>Menu</a>
+<div class=mobile-nav__sheet>
+<div class=mobile-nav__region>
+</div>
+<nav class=mobile-nav__main-menu>
+<h2 class=visually-hidden>Main menu</h2>
+<ul class=mobile-nav__navbar>
+<li><a href=/>Home</a></li>
+<li><a href=/about/>About</a></li>
+<li><a href=/posts/ class=active aria-current=page>Posts</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</body>
+</html>

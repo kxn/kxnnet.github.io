@@ -1,0 +1,114 @@
+<!doctype html><html class=nojs lang=en dir=ltr>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width">
+<title>日子苦 – Null pointer assignment</title>
+<meta name=description content="日子苦今天是清明，理性分析者都能得出结论，今天千万不要往香山去。但是因为香山的月票一定要在月初买，所以拼死了也得去一趟，于是就中招了。 去的时候倒是还好，虽然在正蓝旗还没到就开始堵车，而我错误地根据以往经验没有下车（以往的经验是香山地区堵车不是死堵，车行进的速度还是略高于人下车步行的最快速度的，但是今天终于发现此规则只适用于香泉环岛往西一 …">
+<meta name=created content="0001-01-01T00:00:00+0000">
+<meta name=modified content="0001-01-01T00:00:00+0000">
+<meta name=author content="kxn">
+<meta property="og:site_name" content="Null pointer assignment">
+<meta property="og:title" content="日子苦">
+<meta property="og:url" content="https://blog.kangkang.net/index.php/archives/20">
+<meta property="og:type" content="article">
+<meta name=generator content="Hugo 0.90.1">
+<meta name=msapplication-TileColor content="#ffffff">
+<meta name=theme-color content="#ffffff">
+<link rel=canonical href=https://blog.kangkang.net/index.php/archives/20>
+<link rel=apple-touch-icon href=/apple-touch-icon.png>
+<link rel=stylesheet href=/css/mobile.2ab74aa64785dcab8114959e76ca140cf76207cd85989bc6d4fc3b12f734a09e.css media=screen>
+<link rel=stylesheet href=/css/styles.220f12cbeefa3ca61dd63c4390295bf3974c4ba9557837d5e408db1b40a477ee.css>
+<link rel=stylesheet href=/css/print.27fc184f8670f41a2690985390779e7b20335a8fadff8fa015cf9417ffe50c36.css media=print>
+<script type=application/ld+json>
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "headline": "日子苦",
+    "datePublished": "0001-01-01T00:00:00Z",
+    "dateModified": "0001-01-01T00:00:00Z",
+    "url" : "https://blog.kangkang.net/index.php/archives/20",
+    "description": "日子苦今天是清明，理性分析者都能得出结论，今天千万不要往香山去。但是因为香山的月票一定要在月初买，所以拼死了也得去一趟，于是就中招了。 去的时候倒是还好，虽然在正蓝旗还没到就开始堵车，而我错误地根据以往经验没有下车（以往的经验是香山地区堵车不是死堵，车行进的速度还是略高于人下车步行的最快速度的，但是今天终于发现此规则只适用于香泉环岛往西一 …",
+    "author": {
+      "@type": "Person",
+      "name": "kxn"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://blog.kangkang.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Null pointer assignment",
+      "url": "https://blog.kangkang.net"
+    }
+  }
+</script>
+<script src=/js/script-early.min.3b0e641814c87f6a1d6ffa5e7d597f29faa8ce11482541e8801dc34013817c91.js></script>
+<script defer src=/js/lib/umbrella.min.6e17830ccdded0a13b96d6993865b58202bc2ee750e5892a51858ab048b2bebb.js></script>
+<script defer src=/js/mobile.min.abb9438113cb72181ecda30b9375cc0771c7ce2e7354414a7c1296b45cf47135.js></script>
+<script defer src=/js/script.min.c2752732454d16255cfd30375b9a3e48a37b7b809c917b33920889c859ba1300.js></script>
+</head>
+<body class=single-page>
+<div class="page layout__page layout__sidebar-second">
+<header class="header layout__header">
+<h1 class=header__site-name>
+<a href=/ title=Home class=header__site-link rel=home><span>Null pointer assignment</span></a>
+</h1>
+<div class="region header__region">
+</div>
+</header>
+<nav class="main-menu layout__navigation">
+<h2 class=visually-hidden>Main menu</h2>
+<ul class=navbar>
+<li><a href=/>Home</a></li>
+<li><a href=/about/>About</a></li>
+<li><a href=/posts/ class=active aria-current=page>Posts</a></li>
+</ul>
+</nav>
+<main class="main layout__main">
+<article class="section-posts single-view">
+<header>
+<h1 class=title>日子苦</h1>
+</header>
+<div class=content>
+<p>日子苦</p>
+<p>今天是清明，理性分析者都能得出结论，今天千万不要往香山去。但是因为香山的月票一定要在月初买，所以拼死了也得去一趟，于是就中招了。</p>
+<p>去的时候倒是还好，虽然在正蓝旗还没到就开始堵车，而我错误地根据以往经验没有下车（以往的经验是香山地区堵车不是死堵，车行进的速度还是略高于人下车步行的最快速度的，但是今天终于发现此规则只适用于香泉环岛往西一路，在香泉环岛之前因为有很多私家车试图从五环挤进香泉环岛，而交警会放好多私家车过去，再放香山路这边一点，没办法，他们开私家车的比我们坐公交的有钱，堵塞的五环也比香山路重要，警察叔叔只好照顾他们多一些了），最后我还是在 3:15 pm 左右到了香山公园东门。</p>
+<p>上山的时候，又是忽然想挑战一下自己，选择了索道下面那条直上直下的楼梯路，然后发现这条路确实很强大，我大概走了 1/4 开始就实在压不住呼吸开始疯狂拉风箱，到半山腰的时候已经脑部缺氧头晕了，后半程都是头晕的状态晃上去的，快到山顶的时候忽然腿肚子一用力就开始抽筋，只好改成倒着上山，见过不少倒着下山的，倒着上山的不知道除了我之外还有谁。</p>
+<p>到达山脚下的时候已经 5:45 pm 了，我平时是不坐 634 的，因为他的车站和别的不在一个地方，选择小一些，今天我一看无数人往下走，估计其他公交站那边肯定是人山人海，就决定还是去尝试一下 634，结果到了那里发现停车场上面一辆车都没有，等车的队伍倒是排了四十多米，然后还有很多人从山下的方向往 634 车站这边来。当时还没有意识到，形势居然已经发展到了一个难以想象的程度。。</p>
+<p>转过弯来映入眼帘的首先就是三辆 634 首尾相接的堵在一起，难怪上面停车场里面一辆也无。再往前走到香山公交站附近，大概就是下面这个样子了。所有的公交车私家车都搅成一团不动，缝里面都是人。</p>
+<p>下面这个图是过了上个图里面那两辆横在面前的公交车（蓝牌子附近）以后，看到的真正上下车的地方，这架势，快赶上贵帝都春运了。</p>
+<p>眼看上面那个阵势，在这里等车的不是傻子就是懒蛋，好在我体力还算充足，一路沿着香山路往东走（中间曾经想走香山南路，后来一想算了，那边路道不熟，而且如果好走，私家车也早就从那边走把那边堵死了），结果一路上都是堵着的车，而且一路上面就没有见到动了丝毫，全是死堵。走到香泉环岛的时候，终于看到了罪魁祸首之一 — 一辆特 5 公交车从总站出来，等疯了的人全都不要命的往上挤，于是车也走不了，人也上不去。下面这张照片照的时候面朝西方，远处涌动的人潮不是追这辆特 5 的，是自然从香山下来的人群。</p>
+<p>之所以说这是罪魁祸首之一而不是唯一罪魁祸首，因为就在前面不远处就是另外一个死结 — 香泉环岛。我的相机照完上面那张照片以后就没电了，所以只好用画笔简单的画一下。</p>
+<p>蓝色车流主要是往香山方向去的公交车和本地居民车辆，被彻底堵死，从南侧过来的红色车流试图加入蓝色被堵车流，它首尾相接却将准备绕过环岛，进入香山路东段的黑色车流给堵住了。黑色虚线表示黑色车流正常进入香山路东段的路径。这个堵法很像城内很多立交桥上面的状态。因此虽然过了香泉环岛以后香山路东段下行是一路畅通，但是却没有一辆公交车能过来。而且实际情况是，图中黑色虚线在香泉环岛中的部分，被红色车流的小车到处乱钻全都堵死了。假如交警破例允许黑色车流中的车不必绕行 270 度而是直接从环岛的西北 1/4 进入香山路东段的话，说不定可以把香山路西段上面等待出来的车放得差不多，这样进去的车也能进去了。但是很显然交警也有难处，可能是怕红色车流里面人造反，可能是交警不敢违背交通规则，反正交警就只是均衡的有空间就两边各放一点，没空间就等，直接导致的结果就是我一直走到了颐和园都没有见到多少公交车追上来。（实际上最后追上来的公交车一共就两辆，一辆是我照片中的那辆特 5 ，这个明显是不可能上去的，另一辆是充作北京植物园员工班车的 634，这个不开门不停车的跑掉了）</p>
+<p>沿着香山路继续往东步行，一路上还有很多人往颐和园步行，真搞不明白香山当时是怎么容纳下这么多人的。不过他们都走的很慢，被我一路超过无数。另外就是不能不说香山路这一段还是比较荒凉的，一路上居然都没有几家食品店，有也是那种小店，里面摆着的食品看起来都是不知道放了多少年的那种，于是一直忍饥挨饿地走到了厢红旗，看到一家超市发，进去买了点面包和饮料一路走一路吃，才坚持到颐和园北宫门，看着公交站处攒动的人头和不断从香山继续下行的人流，以及几乎被撑爆的 375 们，我很明智的选择了继续步行到东宫门，坐上一个 826 回来。</p>
+<p>路上也有几辆出租车跑，当然，在这么大量走得腿快断了的人面前，是不可能有空车的，后来想想，我自己还是没有气魄，如果是某有钱人在这种情况下，肯定是从钱包里面抽出来数张毛爷爷对着开过来的私家车招手，那就基本肯定会有车停下来了。无论什么时候，有钱人都是最伟大的！</p>
+<p>以上就是今天一路出行的报告，回来在电子地图上面量了一下，从香山东门到颐和园东宫门的精确路程是 9.2km，上山下山加一起至少有 4km，因此今天至少步行了 13km 多。当然，这点运动量对于经常混绿野的专业人士，或者看不上绿野的人士来说连屁都不是，但是对于一个平时基本没有时间运动，体重 100kg+ 的胖子来说怎么也不能算是一个小数目了。今天一路就喝了 4 瓶 355ml 的水，吃了一点面包，出的汗估计比这个多多了，回来一称体重居然掉到了 97kg ，而且只是失水减轻的，回来喝点水肯定又上来了，不是真正的减肥。除了日子苦，还能说什么呢？</p>
+<aside class="related layout__related">
+</aside>
+</div>
+</article>
+</main>
+<footer class="footer layout__footer">
+<p><span>© Null pointer assignment</span></p>
+<p>Powered by <a href=https://gohugo.io/>Hugo</a> and the <a href=https://github.com/frjo/hugo-theme-zen>Zen theme</a>.</p>
+</footer>
+</div>
+<div class=mobile-nav dir=ltr>
+<div class=mobile-nav__cover></div>
+<a href=#navigation class=mobile-nav__toggle aria-haspopup=true role=button>Menu</a>
+<div class=mobile-nav__sheet>
+<div class=mobile-nav__region>
+</div>
+<nav class=mobile-nav__main-menu>
+<h2 class=visually-hidden>Main menu</h2>
+<ul class=mobile-nav__navbar>
+<li><a href=/>Home</a></li>
+<li><a href=/about/>About</a></li>
+<li><a href=/posts/ class=active aria-current=page>Posts</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</body>
+</html>

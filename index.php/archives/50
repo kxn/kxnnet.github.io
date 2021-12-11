@@ -1,0 +1,125 @@
+<!doctype html><html class=nojs lang=en dir=ltr>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width">
+<title>安德雷老爷爷的故事(代贴) – Null pointer assignment</title>
+<meta name=description content="(这篇文章是我的几个同事合作完成的, 征得了作者们同意后在我的 blog 上面代贴. 感谢作者们的慷慨赠文)_**谨以此文献给为人民服务的好同志安德雷。安德雷老爷爷今年49岁，婚姻状况不详。 据安爷爷本人介绍和多方考证，他出生于一个前苏联和政治沾边的家庭，但显然，在某特定历史时期没站对边，否则安爷爷的grandma（据说“和赫鲁晓夫关系密 …">
+<meta name=created content="0001-01-01T00:00:00+0000">
+<meta name=modified content="0001-01-01T00:00:00+0000">
+<meta name=author content="kxn">
+<meta property="og:site_name" content="Null pointer assignment">
+<meta property="og:title" content="安德雷老爷爷的故事(代贴)">
+<meta property="og:url" content="https://blog.kangkang.net/index.php/archives/50">
+<meta property="og:type" content="article">
+<meta name=generator content="Hugo 0.90.1">
+<meta name=msapplication-TileColor content="#ffffff">
+<meta name=theme-color content="#ffffff">
+<link rel=canonical href=https://blog.kangkang.net/index.php/archives/50>
+<link rel=apple-touch-icon href=/apple-touch-icon.png>
+<link rel=stylesheet href=/css/mobile.2ab74aa64785dcab8114959e76ca140cf76207cd85989bc6d4fc3b12f734a09e.css media=screen>
+<link rel=stylesheet href=/css/styles.220f12cbeefa3ca61dd63c4390295bf3974c4ba9557837d5e408db1b40a477ee.css>
+<link rel=stylesheet href=/css/print.27fc184f8670f41a2690985390779e7b20335a8fadff8fa015cf9417ffe50c36.css media=print>
+<script type=application/ld+json>
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "headline": "安德雷老爷爷的故事(代贴)",
+    "datePublished": "0001-01-01T00:00:00Z",
+    "dateModified": "0001-01-01T00:00:00Z",
+    "url" : "https://blog.kangkang.net/index.php/archives/50",
+    "description": "(这篇文章是我的几个同事合作完成的, 征得了作者们同意后在我的 blog 上面代贴. 感谢作者们的慷慨赠文)_**谨以此文献给为人民服务的好同志安德雷。安德雷老爷爷今年49岁，婚姻状况不详。 据安爷爷本人介绍和多方考证，他出生于一个前苏联和政治沾边的家庭，但显然，在某特定历史时期没站对边，否则安爷爷的grandma（据说“和赫鲁晓夫关系密 …",
+    "author": {
+      "@type": "Person",
+      "name": "kxn"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://blog.kangkang.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Null pointer assignment",
+      "url": "https://blog.kangkang.net"
+    }
+  }
+</script>
+<script src=/js/script-early.min.3b0e641814c87f6a1d6ffa5e7d597f29faa8ce11482541e8801dc34013817c91.js></script>
+<script defer src=/js/lib/umbrella.min.6e17830ccdded0a13b96d6993865b58202bc2ee750e5892a51858ab048b2bebb.js></script>
+<script defer src=/js/mobile.min.abb9438113cb72181ecda30b9375cc0771c7ce2e7354414a7c1296b45cf47135.js></script>
+<script defer src=/js/script.min.c2752732454d16255cfd30375b9a3e48a37b7b809c917b33920889c859ba1300.js></script>
+</head>
+<body class=single-page>
+<div class="page layout__page layout__sidebar-second">
+<header class="header layout__header">
+<h1 class=header__site-name>
+<a href=/ title=Home class=header__site-link rel=home><span>Null pointer assignment</span></a>
+</h1>
+<div class="region header__region">
+</div>
+</header>
+<nav class="main-menu layout__navigation">
+<h2 class=visually-hidden>Main menu</h2>
+<ul class=navbar>
+<li><a href=/>Home</a></li>
+<li><a href=/about/>About</a></li>
+<li><a href=/posts/ class=active aria-current=page>Posts</a></li>
+</ul>
+</nav>
+<main class="main layout__main">
+<article class="section-posts single-view">
+<header>
+<h1 class=title>安德雷老爷爷的故事(代贴)</h1>
+</header>
+<div class=content>
+<p>(这篇文章是我的几个同事合作完成的, 征得了作者们同意后在我的 blog 上面代贴. 感谢作者们的慷慨赠文)_**</p>
+<p>谨以此文献给为人民服务的好同志安德雷。</p>
+<p>安德雷老爷爷今年49岁，婚姻状况不详。</p>
+<p>据安爷爷本人介绍和多方考证，他出生于一个前苏联和政治沾边的家庭，但显然，在某特定历史时期没站对边，否则安爷爷的grandma（据说“和赫鲁晓夫关系密切”）也不会为孙子留下“只可以学理科，千万别沾政治”的嘱托。孙子把这句话奉为人生座右铭，从青年时期当地质学家，到后来转行搞数学，以及来美国後迫于生计学了计算机网络都没有和人文科学有丝毫联系。很不像我们某些精英，国内搞不成政治到了美国继续搞，更加如鱼得水。</p>
+<p>青铜时代</p>
+<p>安德雷的青年时代应该是幸福的，丰富多彩的。一次吃饭时，当大家回忆起清华，科大甚至university of michigan的女同学都不禁垂头丧气时，安德雷的眼睛里却闪烁着特别的光芒，“我们莫斯科大学有很多很多女孩子……”</p>
+<p>自从高中时代起，安德雷继承的狂野基因就躁动起来，他沿着父亲曾经的足迹每个冬天都到俄罗斯北部进行“乡村滑雪” （country ski）。俄罗斯北部……而且是冬天……那是不是只有爱斯基摩人和北极熊才能生存下去的地方呢？待考。总之，安德雷同几个志同道合的伙伴背上行囊，连个帐篷也不带，踩上雪橇就出发了。据说那些地方也曾有村庄的，但早已荒废，几个十六七岁的小伙子白天享受滑雪的乐趣，到了晚上就得享受找住处的刺激了。零下50度的气温，而且北极圈里一定黑得可以，稍微隔几百米就肯定看不见荒废的房子了。据说安德雷也在那种气温下露宿过，问他怕不怕死，他呵呵一笑说还好，年轻时没想那么多，只是深夜还找不到住处的时候很绝望。但绝望过后，第二年还去，不过吃一堑长一智，下次带睡袋就是了。</p>
+<p>虽然安德雷大学的专业是数学和计算机，但大学毕业，他的生活重新变得狂野，因为主要工作就是坐着直升飞机在俄罗斯广袤大地上搜寻各种石头样本。闲暇时候，他也把并行计算用在地质分析，真是静若处子动如脱兔。几年时间里，他数次被空降到西伯利亚——当然是在气候温和的夏天。幸运的时候，他和同事捡了一天石头就飞走。更幸运的时候，他们不仅捡了石头，而且还发现刚刚去世的大型素食动物，比如鹿，那样的话就把鹿挂在直升飞机的脚上，晃晃悠悠地返航。</p>
+<p>但不幸的时候也有，一次，直升飞机把他们扔到一个森林里，完成前一年未完成的任务。本来他们估算一天就返航了，没想到到晚上飞机没来，几个人望眼欲穿，望着望着，天上又下起雨来，而且越下越大。那场雨一口气下了七天——他们只带了三天的粮食——于是几个人躺在帐篷里轮着讲故事。</p>
+<p>其实个人觉得他们还是幸运的，因为七天後雨停的时候飞机立刻出现了，要知道（也是据安德雷说），前苏联的飞行员在社会主义的大包干制度下是这么工作的，一个月飞行距离某某定额，他们就在月初狂飞直到定额完成，剩下的时间全用来喝酒——要是他们在定额完成后的那一天被抛弃在森林里……</p>
+<p>说到底，社会主义大多数时候还是温情脉脉的，所以安德雷没被抛弃在森林里，后来他也一再享受社会主义的独特福利。和咱们伟大祖国一样，苏联也是长时间的计划经济，到个过年过节的时候单位发些鸡鸭鱼肉。安德雷利用职务之便，秋天的时候全副武装地空降西伯利亚某入海口——不是找石头——而是找三文鱼。三文鱼是种奇特的动物，一到季节，冒着生命危险从生活半年的河里翻山越岭地回到海里，在此过程中还要钻到沙地里产卵，所以安德雷打扮得像个肉联厂的职工，身穿防水衣和胶皮靴站在水里抓三文鱼。（鉴于本人文理不通的动物学，上述过程90%有误，但后果都是一样的，就是安德雷带着几十公斤的三文鱼坐着政府提供的直升机返航。）安德雷一个人一口气也吃不了那么多鱼，回到莫斯科就把鱼切片腌了，到盛大节日的时候款待朋友，其乐何融融。( 注: 三文鱼又名大马哈鱼, 在我国东北也有出产, 苏联修正主义当年在黑龙江出海的地方设下大网, 将大个的大马哈鱼一网打尽, 只留下小个的给上游的中国人民. 这件事只是苏修那罄竹难书的罪恶行径中很小部分, 但是它从侧面反映出广大俄罗斯人民对三文鱼的喜爱)</p>
+<p>白银时代</p>
+<p>1990年苏联巨变，安德雷也在那前后到了瑞典。北欧的教育制度，读个三年就给Ph.L，意即“哲学执照”（license of philosophy），再读三年才能混个Ph.D。（原来一个同学去法国，也说有“普通博士”和“国家博士”，主要区别就是年限。当年设置这些学位的时候一定有很多考虑，但在博士大规模生产的年代，能忍六年的确应该比忍三年多点补偿。）总而言之，安德雷对虚名一向没什么特别嗜好，于是，被授予数学方面“哲学执照”后就高高兴兴地从事数学工作了。“从事数学工作”很不传神，我们的原文对话是这样的:<br>
+&ldquo;What is exactly license of philosophy?&rdquo;<br>
+&ldquo;It means I can practice mathematics.&rdquo;<br>
+&ldquo;Practice mathematics?!&rdquo;<br>
+……<br>
+大眼瞪小眼<br>
+……</p>
+<p>在瑞典波澜不惊地过了三年多，安德雷终于来到美国的圣地亚哥。在冷战的40年里，苏联培养出多少数学家啊，那几年里大半都跑到美国来了，真是虎落平阳凭犬欺，安德雷这样的学者在很长时间之内都找不到任何工作。最惨的时候，他两个星期才花了不到4美元。1994年4美元可以在麦当劳买一个半汉堡，让一个体重100斤的女生坚持3-4小时不觉得饿。一个每顿饭至少吃两盘子饭菜的男人怎么在336个小时里靠1.5个汉堡的钱活下去，在很长时间里都让我们迷惑，最后还是安德雷本人解惑——一瓶牛奶，若干土豆……</p>
+<p>有了在零下50度的北极圈里不带帐篷生活两个星期的经历，在圣地亚哥那一年四季温暖如春的地方对安德雷来说也算不得什么。但是他还是找了个提供住宿的工作——给一个公寓当守夜人。主要工作就是在凌晨两三点的时候看到门外有醉汉经过，出门去查看是否公寓住户，是的话就把醉汉的钥匙拿过来，帮着开门把他送进去，不是的话就扔到一边。非常佩服公寓主人的周到，人喝醉的时候钥匙插进孔里的确不容易。</p>
+<p>安德雷也说过，苏联的传统，每家除了平时的住房，都还有个“summer home”，安德雷的summer home离莫斯科不远，夏天的时候，他每天坐着火车上下班。有时也好奇，1994年，当安德雷在凌晨为了醉汉开门以后，明月当空，他会不会后悔这样的选择。</p>
+<p>天无绝人之路，安德雷很快有了一份兼职工作，帮达特茅斯学院写个搜索引擎，工资是1000美元。安德雷也很快完成了任务，写了个100多行的perl程序——如果按每行算钱，达特茅斯的这个deal并不便宜。</p>
+<p>再然后，安德雷在圣地亚哥大学找到了工作，为一个很有名气的女教授做研究，我们权且称之为K。让一位对计算机网络毫无背景的数学家加盟自己名望卓著的实验室，</p>
+<aside class="related layout__related">
+</aside>
+</div>
+</article>
+</main>
+<footer class="footer layout__footer">
+<p><span>© Null pointer assignment</span></p>
+<p>Powered by <a href=https://gohugo.io/>Hugo</a> and the <a href=https://github.com/frjo/hugo-theme-zen>Zen theme</a>.</p>
+</footer>
+</div>
+<div class=mobile-nav dir=ltr>
+<div class=mobile-nav__cover></div>
+<a href=#navigation class=mobile-nav__toggle aria-haspopup=true role=button>Menu</a>
+<div class=mobile-nav__sheet>
+<div class=mobile-nav__region>
+</div>
+<nav class=mobile-nav__main-menu>
+<h2 class=visually-hidden>Main menu</h2>
+<ul class=mobile-nav__navbar>
+<li><a href=/>Home</a></li>
+<li><a href=/about/>About</a></li>
+<li><a href=/posts/ class=active aria-current=page>Posts</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</body>
+</html>

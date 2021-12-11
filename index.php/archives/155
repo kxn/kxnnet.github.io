@@ -1,0 +1,118 @@
+<!doctype html><html class=nojs lang=en dir=ltr>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width">
+<title>办理了兴业搬钱卡 – Null pointer assignment</title>
+<meta name=description content="呃，兴业银行是不会起这么脑残的名字的，这卡名字其实叫做自然人生理财卡，也就是兴业最普通的借记卡。说它是搬钱卡，主要是因为它目前有以下几个好处。 1: 同城跨行汇款免费，很适合用来还网点少的信用卡。(注意实时转账是要钱的，不要搞混了) 2: 同城 ATM 取现完全免费不限次数，这对上地软件园这个只有一台招行取款机，而且这台取款机经常被取空的 …">
+<meta name=created content="2008-11-02T07:01:44+0000">
+<meta name=modified content="2008-11-02T07:01:44+0000">
+<meta name=author content="kxn">
+<meta property="og:site_name" content="Null pointer assignment">
+<meta property="og:title" content="办理了兴业搬钱卡">
+<meta property="og:url" content="https://blog.kangkang.net/index.php/archives/155">
+<meta property="og:type" content="article">
+<meta name=generator content="Hugo 0.90.1">
+<meta name=msapplication-TileColor content="#ffffff">
+<meta name=theme-color content="#ffffff">
+<link rel=canonical href=https://blog.kangkang.net/index.php/archives/155>
+<link rel=apple-touch-icon href=/apple-touch-icon.png>
+<link rel=stylesheet href=/css/mobile.2ab74aa64785dcab8114959e76ca140cf76207cd85989bc6d4fc3b12f734a09e.css media=screen>
+<link rel=stylesheet href=/css/styles.220f12cbeefa3ca61dd63c4390295bf3974c4ba9557837d5e408db1b40a477ee.css>
+<link rel=stylesheet href=/css/print.27fc184f8670f41a2690985390779e7b20335a8fadff8fa015cf9417ffe50c36.css media=print>
+<script type=application/ld+json>
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "headline": "办理了兴业搬钱卡",
+    "datePublished": "2008-11-02T07:01:44Z",
+    "dateModified": "2008-11-02T07:01:44Z",
+    "url" : "https://blog.kangkang.net/index.php/archives/155",
+    "description": "呃，兴业银行是不会起这么脑残的名字的，这卡名字其实叫做自然人生理财卡，也就是兴业最普通的借记卡。说它是搬钱卡，主要是因为它目前有以下几个好处。 1: 同城跨行汇款免费，很适合用来还网点少的信用卡。(注意实时转账是要钱的，不要搞混了) 2: 同城 ATM 取现完全免费不限次数，这对上地软件园这个只有一台招行取款机，而且这台取款机经常被取空的 …",
+    "keywords": ["atm","cib","free","withdrawal"],
+    "author": {
+      "@type": "Person",
+      "name": "kxn"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://blog.kangkang.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Null pointer assignment",
+      "url": "https://blog.kangkang.net"
+    }
+  }
+</script>
+<script src=/js/script-early.min.3b0e641814c87f6a1d6ffa5e7d597f29faa8ce11482541e8801dc34013817c91.js></script>
+<script defer src=/js/lib/umbrella.min.6e17830ccdded0a13b96d6993865b58202bc2ee750e5892a51858ab048b2bebb.js></script>
+<script defer src=/js/mobile.min.abb9438113cb72181ecda30b9375cc0771c7ce2e7354414a7c1296b45cf47135.js></script>
+<script defer src=/js/script.min.c2752732454d16255cfd30375b9a3e48a37b7b809c917b33920889c859ba1300.js></script>
+</head>
+<body class=single-page>
+<div class="page layout__page layout__sidebar-second">
+<header class="header layout__header">
+<h1 class=header__site-name>
+<a href=/ title=Home class=header__site-link rel=home><span>Null pointer assignment</span></a>
+</h1>
+<div class="region header__region">
+</div>
+</header>
+<nav class="main-menu layout__navigation">
+<h2 class=visually-hidden>Main menu</h2>
+<ul class=navbar>
+<li><a href=/>Home</a></li>
+<li><a href=/about/>About</a></li>
+<li><a href=/posts/ class=active aria-current=page>Posts</a></li>
+</ul>
+</nav>
+<main class="main layout__main">
+<article class="section-posts single-view">
+<header>
+<h1 class=title>办理了兴业搬钱卡</h1>
+<div class=tags>
+Tags:
+<ul>
+<li><a href=/tags/atm>atm</a></li>
+<li><a href=/tags/cib>cib</a></li>
+<li><a href=/tags/free>free</a></li>
+<li><a href=/tags/withdrawal>withdrawal</a></li>
+</ul>
+</div>
+</header>
+<div class=content>
+<p>呃，兴业银行是不会起这么脑残的名字的，这卡名字其实叫做自然人生理财卡，也就是兴业最普通的借记卡。说它是搬钱卡，主要是因为它目前有以下几个好处。</p>
+<p>1: 同城跨行汇款免费，很适合用来还网点少的信用卡。(注意实时转账是要钱的，不要搞混了)</p>
+<p>2: 同城 ATM 取现完全免费不限次数，这对上地软件园这个只有一台招行取款机，而且这台取款机经常被取空的地方来说，还是挺有用的。异地每月有 3 次免费机会（不确定，但我一般也不需要此功能就是了）</p>
+<p>3: 目前各种费用基本还是免的，比如短信账户提醒，账户管理费之类。</p>
+<p>4: 可以网上申请个兴业 e 卡，从这个账户可以有限地实现全国范围内免费跨行转账（需要对方城市有兴业银行的分舵才能免费），不过这个功能对我来说实在是没啥用处。</p>
+<p>以前一直是随身带着招行一卡通金当取款卡的，这个卡似乎是当年作为工资卡时候签成长期协议了，因此它现在虽然已经不是工资卡，但还是享受每月两次跨行 ATM 取现的优惠。不过它已经快到期了，到期以后换卡不知道还有没有优惠，另外如果不小心多取几次，也比较郁闷。现在有了搬钱卡，还是让搬钱卡来承担这一重任吧。</p>
+<p>刚登录上了兴业网银，看起来还算好用，从功能上看不比招行那个差太多。不过需要注意的一点是，Vista 下面 IE 如果没有装 Java，在登录兴业网银时候一声不吭的就崩溃了，由于 Vista 权限分离的原因，连调试都很难调试。最后是搜了半天，终于发现要装 Java，而且要把兴业网址和证书颁发网站(cfca.com.cn)都设成信任站点才成。</p>
+<aside class="related layout__related">
+</aside>
+</div>
+</article>
+</main>
+<footer class="footer layout__footer">
+<p><span>© Null pointer assignment</span></p>
+<p>Powered by <a href=https://gohugo.io/>Hugo</a> and the <a href=https://github.com/frjo/hugo-theme-zen>Zen theme</a>.</p>
+</footer>
+</div>
+<div class=mobile-nav dir=ltr>
+<div class=mobile-nav__cover></div>
+<a href=#navigation class=mobile-nav__toggle aria-haspopup=true role=button>Menu</a>
+<div class=mobile-nav__sheet>
+<div class=mobile-nav__region>
+</div>
+<nav class=mobile-nav__main-menu>
+<h2 class=visually-hidden>Main menu</h2>
+<ul class=mobile-nav__navbar>
+<li><a href=/>Home</a></li>
+<li><a href=/about/>About</a></li>
+<li><a href=/posts/ class=active aria-current=page>Posts</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</body>
+</html>

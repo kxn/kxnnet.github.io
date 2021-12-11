@@ -1,0 +1,111 @@
+<!doctype html><html class=nojs lang=en dir=ltr>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width">
+<title>在淘宝上面买了个便宜翻新手机 – Null pointer assignment</title>
+<meta name=description content="一般来说我是不在淘宝上面买手机这样比较昂贵的东西的，不过这个东西的价格实在不能算上昂贵，“全新库存机，带两块电池，线充座充”，才卖 180，当然是翻新的可能性也非常之大，不过这价格比二手都好了，自己买个二手自己换壳那成本也不会太低，既然有人替你翻好还附送两个电池，何必费劲去淘二手。所以就给老妈买了一个，她以前的那个二手海信手机收来的时候机 …">
+<meta name=created content="2008-06-05T15:58:00+0000">
+<meta name=modified content="2008-06-05T15:58:00+0000">
+<meta name=author content="kxn">
+<meta property="og:site_name" content="Null pointer assignment">
+<meta property="og:title" content="在淘宝上面买了个便宜翻新手机">
+<meta property="og:url" content="https://blog.kangkang.net/index.php/archives/136">
+<meta property="og:type" content="article">
+<meta name=generator content="Hugo 0.90.1">
+<meta name=msapplication-TileColor content="#ffffff">
+<meta name=theme-color content="#ffffff">
+<link rel=canonical href=https://blog.kangkang.net/index.php/archives/136>
+<link rel=apple-touch-icon href=/apple-touch-icon.png>
+<link rel=stylesheet href=/css/mobile.2ab74aa64785dcab8114959e76ca140cf76207cd85989bc6d4fc3b12f734a09e.css media=screen>
+<link rel=stylesheet href=/css/styles.220f12cbeefa3ca61dd63c4390295bf3974c4ba9557837d5e408db1b40a477ee.css>
+<link rel=stylesheet href=/css/print.27fc184f8670f41a2690985390779e7b20335a8fadff8fa015cf9417ffe50c36.css media=print>
+<script type=application/ld+json>
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "headline": "在淘宝上面买了个便宜翻新手机",
+    "datePublished": "2008-06-05T15:58:00Z",
+    "dateModified": "2008-06-05T15:58:00Z",
+    "url" : "https://blog.kangkang.net/index.php/archives/136",
+    "description": "一般来说我是不在淘宝上面买手机这样比较昂贵的东西的，不过这个东西的价格实在不能算上昂贵，“全新库存机，带两块电池，线充座充”，才卖 180，当然是翻新的可能性也非常之大，不过这价格比二手都好了，自己买个二手自己换壳那成本也不会太低，既然有人替你翻好还附送两个电池，何必费劲去淘二手。所以就给老妈买了一个，她以前的那个二手海信手机收来的时候机 …",
+    "keywords": ["cdma cellphone","taobao"],
+    "author": {
+      "@type": "Person",
+      "name": "kxn"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://blog.kangkang.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Null pointer assignment",
+      "url": "https://blog.kangkang.net"
+    }
+  }
+</script>
+<script src=/js/script-early.min.3b0e641814c87f6a1d6ffa5e7d597f29faa8ce11482541e8801dc34013817c91.js></script>
+<script defer src=/js/lib/umbrella.min.6e17830ccdded0a13b96d6993865b58202bc2ee750e5892a51858ab048b2bebb.js></script>
+<script defer src=/js/mobile.min.abb9438113cb72181ecda30b9375cc0771c7ce2e7354414a7c1296b45cf47135.js></script>
+<script defer src=/js/script.min.c2752732454d16255cfd30375b9a3e48a37b7b809c917b33920889c859ba1300.js></script>
+</head>
+<body class=single-page>
+<div class="page layout__page layout__sidebar-second">
+<header class="header layout__header">
+<h1 class=header__site-name>
+<a href=/ title=Home class=header__site-link rel=home><span>Null pointer assignment</span></a>
+</h1>
+<div class="region header__region">
+</div>
+</header>
+<nav class="main-menu layout__navigation">
+<h2 class=visually-hidden>Main menu</h2>
+<ul class=navbar>
+<li><a href=/>Home</a></li>
+<li><a href=/about/>About</a></li>
+<li><a href=/posts/ class=active aria-current=page>Posts</a></li>
+</ul>
+</nav>
+<main class="main layout__main">
+<article class="section-posts single-view">
+<header>
+<h1 class=title>在淘宝上面买了个便宜翻新手机</h1>
+<div class=tags>
+Tags:
+<ul>
+<li><a href=/tags/cdma-cellphone>cdma cellphone</a></li>
+<li><a href=/tags/taobao>taobao</a></li>
+</ul>
+</div>
+</header>
+<div class=content>
+<p>一般来说我是不在淘宝上面买手机这样比较昂贵的东西的，不过<a href=http://auction1.taobao.com/auction/item_detail-db2-f2265bc539a4e7373ec3c661d0404068.jhtml>这个东西</a>的价格实在不能算上昂贵，“全新库存机，带两块电池，线充座充”，才卖 180，当然是翻新的可能性也非常之大，不过这价格比二手都好了，自己买个二手自己换壳那成本也不会太低，既然有人替你翻好还附送两个电池，何必费劲去淘二手。所以就给老妈买了一个，她以前的那个二手海信手机收来的时候机盖就是摇摇晃晃的，然后电池只能用万能充，直充的话，手机会发热得很厉害，以前说要买新的她总是说太贵。</p>
+<p>星期三上午下的订单，晚上八点在深圳发货，星期四晚上八点就送到了，顺丰快递看起来很强大，丝毫不弱于 UPS Next Day。收到一看果然不出所料，是翻新机，比较不太高兴的是用的比较一般的仿壳，而且附带的盗版说明书印制粗糙，还不如山寨机，其他功能还算好用，就当买个二手好了。</p>
+<aside class="related layout__related">
+</aside>
+</div>
+</article>
+</main>
+<footer class="footer layout__footer">
+<p><span>© Null pointer assignment</span></p>
+<p>Powered by <a href=https://gohugo.io/>Hugo</a> and the <a href=https://github.com/frjo/hugo-theme-zen>Zen theme</a>.</p>
+</footer>
+</div>
+<div class=mobile-nav dir=ltr>
+<div class=mobile-nav__cover></div>
+<a href=#navigation class=mobile-nav__toggle aria-haspopup=true role=button>Menu</a>
+<div class=mobile-nav__sheet>
+<div class=mobile-nav__region>
+</div>
+<nav class=mobile-nav__main-menu>
+<h2 class=visually-hidden>Main menu</h2>
+<ul class=mobile-nav__navbar>
+<li><a href=/>Home</a></li>
+<li><a href=/about/>About</a></li>
+<li><a href=/posts/ class=active aria-current=page>Posts</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</body>
+</html>
