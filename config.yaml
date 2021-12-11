@@ -1,0 +1,32 @@
+url: https://blog.kangkang.net
+title: Null pointer assignment
+name: Null pointer assignment
+description: Life is painful
+theme: "zen"
+
+pluralizelisttitles: false
+removePathAccents: true
+paginate: 10
+paginatePath: "page"
+rssLimit: 20
+
+outputFormats:
+  SearchIndex:
+    mediaType: "application/json"
+    baseName: "searchindex"
+    isPlainText: true
+    notAlternative: true
+
+outputs:
+  home: ["HTML", "RSS", "JSON", "SearchIndex"]
+  section: ["HTML", "RSS", "JSON"]
+
+params:
+  mainSections: # The sections you want to have listed on the front page.
+    - "post"
+
+  relatedposts: true # Show related posts under a "See also" section, default false.
+  mobileMenu: true
+  poweredby: true
+  feedlinks: true
+  logo: false
