@@ -1,0 +1,107 @@
+<!doctype html><html class=nojs lang=en dir=ltr>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width">
+<title>十年 （楔子） – Null pointer assignment</title>
+<meta name=description content="写这么个题目，大抵是受到了伟大ＭＪ的影响。很奇怪的，MJ 没有在他自己 blog 上面刊登这一史诗般的巨著，是通过梁总的 blog发布的。然而这并不妨碍它成为一部伟大的作品。我用这个题目，无非是为了沾点光增加点知名度，人都不能免俗嘛。另外这种事情以前干过也不止一次了，对于一个没有创意和想法的人来说，你还能要求什么呢？ 注：  MJ : …">
+<meta name=created content="0001-01-01T00:00:00+0000">
+<meta name=modified content="0001-01-01T00:00:00+0000">
+<meta name=author content="kxn">
+<meta property="og:site_name" content="Null pointer assignment">
+<meta property="og:title" content="十年 （楔子）">
+<meta property="og:url" content="https://blog.kangkang.net/57.html">
+<meta property="og:type" content="article">
+<meta name=generator content="Hugo 0.90.1">
+<meta name=msapplication-TileColor content="#ffffff">
+<meta name=theme-color content="#ffffff">
+<link rel=canonical href=https://blog.kangkang.net/57.html>
+<link rel=apple-touch-icon href=/apple-touch-icon.png>
+<link rel=stylesheet href=/css/mobile.2ab74aa64785dcab8114959e76ca140cf76207cd85989bc6d4fc3b12f734a09e.css media=screen>
+<link rel=stylesheet href=/css/styles.220f12cbeefa3ca61dd63c4390295bf3974c4ba9557837d5e408db1b40a477ee.css>
+<link rel=stylesheet href=/css/print.27fc184f8670f41a2690985390779e7b20335a8fadff8fa015cf9417ffe50c36.css media=print>
+<script type=application/ld+json>
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "headline": "十年 （楔子）",
+    "datePublished": "0001-01-01T00:00:00Z",
+    "dateModified": "0001-01-01T00:00:00Z",
+    "url" : "https://blog.kangkang.net/57.html",
+    "description": "写这么个题目，大抵是受到了伟大ＭＪ的影响。很奇怪的，MJ 没有在他自己 blog 上面刊登这一史诗般的巨著，是通过梁总的 blog发布的。然而这并不妨碍它成为一部伟大的作品。我用这个题目，无非是为了沾点光增加点知名度，人都不能免俗嘛。另外这种事情以前干过也不止一次了，对于一个没有创意和想法的人来说，你还能要求什么呢？ 注：  MJ : …",
+    "author": {
+      "@type": "Person",
+      "name": "kxn"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://blog.kangkang.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Null pointer assignment",
+      "url": "https://blog.kangkang.net"
+    }
+  }
+</script>
+<script src=/js/script-early.min.3b0e641814c87f6a1d6ffa5e7d597f29faa8ce11482541e8801dc34013817c91.js></script>
+<script defer src=/js/lib/umbrella.min.6e17830ccdded0a13b96d6993865b58202bc2ee750e5892a51858ab048b2bebb.js></script>
+<script defer src=/js/mobile.min.abb9438113cb72181ecda30b9375cc0771c7ce2e7354414a7c1296b45cf47135.js></script>
+<script defer src=/js/script.min.c2752732454d16255cfd30375b9a3e48a37b7b809c917b33920889c859ba1300.js></script>
+</head>
+<body class=single-page>
+<div class="page layout__page layout__sidebar-second">
+<header class="header layout__header">
+<h1 class=header__site-name>
+<a href=/ title=Home class=header__site-link rel=home><span>Null pointer assignment</span></a>
+</h1>
+<div class="region header__region">
+</div>
+</header>
+<nav class="main-menu layout__navigation">
+<h2 class=visually-hidden>Main menu</h2>
+<ul class=navbar>
+<li><a href=/>Home</a></li>
+<li><a href=/about/>About</a></li>
+<li><a href=/posts/ class=active aria-current=page>Posts</a></li>
+</ul>
+</nav>
+<main class="main layout__main">
+<article class="section-posts single-view">
+<header>
+<h1 class=title>十年 （楔子）</h1>
+</header>
+<div class=content>
+<p>写这么个题目，大抵是受到了伟大ＭＪ的影响。很奇怪的，MJ 没有在他自己 blog 上面刊登这一史诗般的巨著，是通过梁总的 blog发布的。然而这并不妨碍它成为一部伟大的作品。我用这个题目，无非是为了沾点光增加点知名度，人都不能免俗嘛。另外这种事情以前干过也不止一次了，对于一个没有创意和想法的人来说，你还能要求什么呢？</p>
+<p>注：</p>
+<ol>
+<li>MJ : Magic Jack, 神奇的 Jack, 因其常用 id 为 Jack 而得名。１９９７年某省高考状元，语文满分。曾为水母摄影版，园艺版，童话版等多个版的台柱子。目前为某互联网公司技术主负责人，承担了该公司８０％的开发任务。著有《准毕业生年代》，《二月兰》等作品。目前单身。</li>
+</ol>
+<p>2.  梁总:  岭南世家子弟，Ｔ大ＣＳ博士，人称梁总或者梁博士。目前为某著名外企研究院研究员。其事迹可以参考<a href=http://kxn.spaces.live.com/blog/cns!626140570A4EA541!499.entry>拙文</a></p>
+<aside class="related layout__related">
+</aside>
+</div>
+</article>
+</main>
+<footer class="footer layout__footer">
+<p><span>© Null pointer assignment</span></p>
+<p>Powered by <a href=https://gohugo.io/>Hugo</a> and the <a href=https://github.com/frjo/hugo-theme-zen>Zen theme</a>.</p>
+</footer>
+</div>
+<div class=mobile-nav dir=ltr>
+<div class=mobile-nav__cover></div>
+<a href=#navigation class=mobile-nav__toggle aria-haspopup=true role=button>Menu</a>
+<div class=mobile-nav__sheet>
+<div class=mobile-nav__region>
+</div>
+<nav class=mobile-nav__main-menu>
+<h2 class=visually-hidden>Main menu</h2>
+<ul class=mobile-nav__navbar>
+<li><a href=/>Home</a></li>
+<li><a href=/about/>About</a></li>
+<li><a href=/posts/ class=active aria-current=page>Posts</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</body>
+</html>

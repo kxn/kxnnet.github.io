@@ -1,0 +1,107 @@
+<!doctype html><html class=nojs lang=en dir=ltr>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width">
+<title>傻比玩电脑 – Null pointer assignment</title>
+<meta name=description content="俗话说穷玩车，富玩表，傻比玩电脑，而我有三个电脑，所以我确实有够傻比，因为折腾这三个电脑会花掉我很多的精力。虽然说，养电脑比养娃还是要省心一些，但是他们轮番上阵闹事，也不是一般人能扛得住的。 一般来说，一个自己攒的电脑，用得狠点，其健康期也就三年左右，比猫啊狗啊的寿命还短。有人说了，我那电脑，七八年了也没啥事情，现在还整天跑的好好的，我每 …">
+<meta name=created content="2009-01-31T16:39:27+0000">
+<meta name=modified content="2009-01-31T16:39:27+0000">
+<meta name=author content="kxn">
+<meta property="og:site_name" content="Null pointer assignment">
+<meta property="og:title" content="傻比玩电脑">
+<meta property="og:url" content="https://blog.kangkang.net/241.html">
+<meta property="og:type" content="article">
+<meta name=generator content="Hugo 0.90.1">
+<meta name=msapplication-TileColor content="#ffffff">
+<meta name=theme-color content="#ffffff">
+<link rel=canonical href=https://blog.kangkang.net/241.html>
+<link rel=apple-touch-icon href=/apple-touch-icon.png>
+<link rel=stylesheet href=/css/mobile.2ab74aa64785dcab8114959e76ca140cf76207cd85989bc6d4fc3b12f734a09e.css media=screen>
+<link rel=stylesheet href=/css/styles.220f12cbeefa3ca61dd63c4390295bf3974c4ba9557837d5e408db1b40a477ee.css>
+<link rel=stylesheet href=/css/print.27fc184f8670f41a2690985390779e7b20335a8fadff8fa015cf9417ffe50c36.css media=print>
+<script type=application/ld+json>
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "headline": "傻比玩电脑",
+    "datePublished": "2009-01-31T16:39:27Z",
+    "dateModified": "2009-01-31T16:39:27Z",
+    "url" : "https://blog.kangkang.net/241.html",
+    "description": "俗话说穷玩车，富玩表，傻比玩电脑，而我有三个电脑，所以我确实有够傻比，因为折腾这三个电脑会花掉我很多的精力。虽然说，养电脑比养娃还是要省心一些，但是他们轮番上阵闹事，也不是一般人能扛得住的。 一般来说，一个自己攒的电脑，用得狠点，其健康期也就三年左右，比猫啊狗啊的寿命还短。有人说了，我那电脑，七八年了也没啥事情，现在还整天跑的好好的，我每 …",
+    "author": {
+      "@type": "Person",
+      "name": "kxn"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://blog.kangkang.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Null pointer assignment",
+      "url": "https://blog.kangkang.net"
+    }
+  }
+</script>
+<script src=/js/script-early.min.3b0e641814c87f6a1d6ffa5e7d597f29faa8ce11482541e8801dc34013817c91.js></script>
+<script defer src=/js/lib/umbrella.min.6e17830ccdded0a13b96d6993865b58202bc2ee750e5892a51858ab048b2bebb.js></script>
+<script defer src=/js/mobile.min.abb9438113cb72181ecda30b9375cc0771c7ce2e7354414a7c1296b45cf47135.js></script>
+<script defer src=/js/script.min.c2752732454d16255cfd30375b9a3e48a37b7b809c917b33920889c859ba1300.js></script>
+</head>
+<body class=single-page>
+<div class="page layout__page layout__sidebar-second">
+<header class="header layout__header">
+<h1 class=header__site-name>
+<a href=/ title=Home class=header__site-link rel=home><span>Null pointer assignment</span></a>
+</h1>
+<div class="region header__region">
+</div>
+</header>
+<nav class="main-menu layout__navigation">
+<h2 class=visually-hidden>Main menu</h2>
+<ul class=navbar>
+<li><a href=/>Home</a></li>
+<li><a href=/about/>About</a></li>
+<li><a href=/posts/ class=active aria-current=page>Posts</a></li>
+</ul>
+</nav>
+<main class="main layout__main">
+<article class="section-posts single-view">
+<header>
+<h1 class=title>傻比玩电脑</h1>
+</header>
+<div class=content>
+<p>俗话说穷玩车，富玩表，傻比玩电脑，而我有三个电脑，所以我确实有够傻比，因为折腾这三个电脑会花掉我很多的精力。虽然说，养电脑比养娃还是要省心一些，但是他们轮番上阵闹事，也不是一般人能扛得住的。</p>
+<p>一般来说，一个自己攒的电脑，用得狠点，其健康期也就三年左右，比猫啊狗啊的寿命还短。有人说了，我那电脑，七八年了也没啥事情，现在还整天跑的好好的，我每天拿他打纸牌和挖雷，好着呢。这一般有几种情况，不过最常见的是您对电脑不够熟悉，不拿牲口做重活不知道牲口弱。一个整天只用来纸牌挖雷的电脑，想要死机蓝屏，那是挺难，您拿您那宝贝电脑打个牛逼点的游戏，放点高清看看他还挺得住不。要不就是您特有钱买了一高档电脑还没被人蒙，一般来说高端部件因为利润比较多，厂商用料做工通常还是会比较给面子。当然还有可能是您弱到电脑蓝屏重启了不知道它其实已经出毛病了。一句话，电脑这玩意既短命又娇气，如果你买了一个电脑，三年了没出问题，就说明你买了一个正常的电脑。而比较惨的情况，就是像我这样买了三个电脑，而他们轮番罢工或者病病歪歪，来折腾我。</p>
+<p>最折腾人的就是我自己的座机了。因为平时上网慢，于是我养成了收藏型的人格，看到什么东西不管有用没用先屯着再说。于是我电脑里面最值钱的东西是硬盘，要不是机箱空间实在放不下了，我会把它插到六块硬盘，而现在只有四块，加起来是 1.5T 的空间我还嫌少（那谁和那谁谁不许得瑟，甭拿我这个家用机跟你们配的放片的服务器比）。大量的硬盘带来的是大量的噪声用电以及发热，虽然我已经尽量选择了声音小的硬盘，但是再怎么整他也是机械产品，跟 SSD 不能比，于是关机时候许多硬盘磁头一起回位的咔哒一声听起来非常有气势。这些硬盘加上我的一个 9600GSO 显卡，把机箱里面弄得可以烤白薯，就在写这篇 blog 的嵌半小时，我决定放松一下打会游戏，刚打了二十分钟左右，机箱里面就砰的打了一火花，但是电脑居然没有死机还在正常工作，打开机箱，一股热风扑面而来，看了一下也没找到是什么地方打火，只好把游戏给关了。诸如此类的破毛病还有不少，例如有时候可能电压太低，而我的电源其实已经快到负载极限，于是开机开不起来。这些都不是什么大毛病，但是想想要修至少要投入上千大洋换机箱换电源，就懒得搞了，反正也不是不能凑合用。</p>
+<p>相比之下，老爸的电脑情况就好多了，虽然它也时不时会死个机蓝个屏，但是至少我知道它的毛病是显卡，只是现在 AGP 显卡不太好配，而淘宝上的二手 PCI 显卡经常是有品质问题，我买了两个都是用了一段时候开始出现各种毛病，随便村里买一个新 AGP 又容易导致电源不足的骨牌效应。</p>
+<p>笔记本倒是没啥大问题，除了关盖大概有 40% 的几率不能正常休眠，而休眠起来大概有 50% 的几率无线网卡不能用，需要彻底重启。anyway，它还是我所有部下里面最可信赖的那个。</p>
+<p>不知道我什么时候，才能富裕到带三个表，而不是傻比的玩三个电脑。</p>
+<aside class="related layout__related">
+</aside>
+</div>
+</article>
+</main>
+<footer class="footer layout__footer">
+<p><span>© Null pointer assignment</span></p>
+<p>Powered by <a href=https://gohugo.io/>Hugo</a> and the <a href=https://github.com/frjo/hugo-theme-zen>Zen theme</a>.</p>
+</footer>
+</div>
+<div class=mobile-nav dir=ltr>
+<div class=mobile-nav__cover></div>
+<a href=#navigation class=mobile-nav__toggle aria-haspopup=true role=button>Menu</a>
+<div class=mobile-nav__sheet>
+<div class=mobile-nav__region>
+</div>
+<nav class=mobile-nav__main-menu>
+<h2 class=visually-hidden>Main menu</h2>
+<ul class=mobile-nav__navbar>
+<li><a href=/>Home</a></li>
+<li><a href=/about/>About</a></li>
+<li><a href=/posts/ class=active aria-current=page>Posts</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</body>
+</html>
